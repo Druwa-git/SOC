@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/TFF_3bits_prj/TFF_3bits_prj.sim/sim_1/impl/func/xsim/TFF_3bits_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TFF_3bits
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/TFF_3bits_src/TFF_3bits_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TFF_3bits_tb

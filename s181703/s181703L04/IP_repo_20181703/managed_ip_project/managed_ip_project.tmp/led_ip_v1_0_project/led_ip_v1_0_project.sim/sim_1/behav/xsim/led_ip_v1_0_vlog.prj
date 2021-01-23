@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../ip_repo/led_ip_1.0/src/led_ctrl.v" \
+"../../../../../../../ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S00_AXI.v" \
+"../../../../../../../ip_repo/led_ip_1.0/hdl/led_ip_v1_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

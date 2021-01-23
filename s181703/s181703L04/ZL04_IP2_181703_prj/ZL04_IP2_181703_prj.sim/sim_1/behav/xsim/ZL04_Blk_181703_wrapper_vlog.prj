@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../ZL04_IP2_181703_prj.srcs/sources_1/bd/ZL04_Blk_181703/ipshared/ec67/hdl" --include "../../../../ZL04_IP2_181703_prj.srcs/sources_1/bd/ZL04_Blk_181703/ipshared/5bb9/hdl/verilog" --include "../../../../ZL04_IP2_181703_prj.srcs/sources_1/bd/ZL04_Blk_181703/ipshared/70fd/hdl" --include "D:/Vivado/2018.2/data/xilinx_vip/include" \
+"../../../../ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ip/ZL04_Blk_181703_processing_system7_0_0/sim/ZL04_Blk_181703_processing_system7_0_0.v" \
+"../../../../ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ipshared/d1d8/hdl/led_btn_ip_v1_0_S00_AXI.v" \
+"../../../../ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ipshared/d1d8/hdl/led_btn_ctrl.v" \
+"../../../../ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ipshared/d1d8/hdl/led_btn_ip_v1_0.v" \
+"../../../../ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ip/ZL04_Blk_181703_led_btn_ip_0_0/sim/ZL04_Blk_181703_led_btn_ip_0_0.v" \
+"../../../../ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ip/ZL04_Blk_181703_auto_pc_0/sim/ZL04_Blk_181703_auto_pc_0.v" \
+"../../../../ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/sim/ZL04_Blk_181703.v" \
+"../../../../ZL04_IP2_181703_prj.srcs/sources_1/bd/ZL04_Blk_181703/hdl/ZL04_Blk_181703_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

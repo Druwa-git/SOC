@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1608383987">
+  <File Type="PA-TCL" Name="ZL04_Blk_181703_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="ZL04_Blk_181703_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="ZL04_Blk_181703_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="ZL04_Blk_181703_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="ZL04_Blk_181703_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ZL04_Blk_181703_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="ZL04_Blk_181703_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ZL04_Blk_181703_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="ZL04_Blk_181703_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/ZL04_Blk_181703/ZL04_Blk_181703.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/ZL04_Blk_181703/hdl/ZL04_Blk_181703_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ZL04_Blk_181703_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../ZL04_IP2_181703_src/Zybo-Z7-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ZL04_Blk_181703_rst_ps7_0_50M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZL04_Blk_181703_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZL04_Blk_181703_led_btn_ip_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZL04_Blk_181703_processing_system7_0_0"/>
+</GenRun>

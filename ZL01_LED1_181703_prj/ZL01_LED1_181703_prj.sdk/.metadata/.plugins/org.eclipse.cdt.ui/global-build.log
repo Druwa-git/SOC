@@ -1,0 +1,199 @@
+22:10:19 **** Build of project ZL01_SW_181703_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project ZL01_SW_181703 ****
+
+Nothing to build for project ZL01_SW_181703
+02:56:34 **** Auto Build of configuration Debug for project ZL01_SW_181703 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ZL01_LED1_test.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ZL01_LED1_test.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ZL01_LED1_test.d" -MT"src/ZL01_LED1_test.o" -o "src/ZL01_LED1_test.o" "../src/ZL01_LED1_test.c"
+'Finished building: ../src/ZL01_LED1_test.c'
+' '
+'Building target: ZL01_SW_181703.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ZL01_SW_181703_bsp/ps7_cortexa9_0/lib -o "ZL01_SW_181703.elf"  ./src/ZL01_LED1_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ZL01_SW_181703.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ZL01_SW_181703.elf  |tee "ZL01_SW_181703.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23316	   1168	  22600	  47084	   b7ec	ZL01_SW_181703.elf
+'Finished building: ZL01_SW_181703.elf.size'
+' '
+03:15:40 **** Clean-only build of configuration Debug for project ZL01_SW_181703 ****
+make clean 
+rm -rf  ./src/ZL01_LED1_test.o  ./src/ZL01_LED1_test.d  ZL01_SW_181703.elf.size  ZL01_SW_181703.elf
+' '
+
+****  of configuration Debug for project ZL01_SW_181703 ****
+
+Nothing to build for project ZL01_SW_181703
+03:19:14 **** Auto Build of configuration Debug for project ZL01_SW_181703 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ZL01_LED1_Console_IO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ZL01_LED1_Console_IO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ZL01_LED1_Console_IO.d" -MT"src/ZL01_LED1_Console_IO.o" -o "src/ZL01_LED1_Console_IO.o" "../src/ZL01_LED1_Console_IO.c"
+../src/ZL01_LED1_Console_IO.c: In function 'main':
+../src/ZL01_LED1_Console_IO.c:12:13: warning: missing terminating " character
+  xil_printf("Start LED lighting!\r\n“ );
+             ^
+../src/ZL01_LED1_Console_IO.c:12:13: error: missing terminating " character
+  xil_printf("Start LED lighting!\r\n“ );
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ZL01_LED1_Console_IO.c:13:30: error: expected ')' before ';' token
+   Status = LEDOutputExample(); // LED control func.
+                              ^
+../src/ZL01_LED1_Console_IO.c:13:3: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+   Status = LEDOutputExample(); // LED control func.
+   ^~~~~~
+In file included from ../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/ZL01_LED1_Console_IO.c:2:
+../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include/xil_printf.h:39:6: note: expected 'const char8 * {aka const char *}' but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+      ^~~~~~~~~~
+../src/ZL01_LED1_Console_IO.c:19:1: error: expected ';' before '}' token
+ }
+ ^
+../src/ZL01_LED1_Console_IO.c: In function 'LEDOutputExample':
+../src/ZL01_LED1_Console_IO.c:28:14: warning: missing terminating " character
+   xil_printf("Enter an LED value in hex : “ );
+              ^
+../src/ZL01_LED1_Console_IO.c:28:14: error: missing terminating " character
+   xil_printf("Enter an LED value in hex : “ );
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ZL01_LED1_Console_IO.c:29:17: error: expected ')' before ';' token
+    ch = inbyte(); // input a char
+                 ^
+../src/ZL01_LED1_Console_IO.c:29:4: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+    ch = inbyte(); // input a char
+    ^~
+In file included from ../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include/xil_io.h:65:0,
+                 from ../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/ZL01_LED1_Console_IO.c:2:
+../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include/xil_printf.h:39:6: note: expected 'const char8 * {aka const char *}' but argument is of type 'char8 {aka char}'
+ void xil_printf( const char8 *ctrl1, ...);
+      ^~~~~~~~~~
+../src/ZL01_LED1_Console_IO.c:41:2: error: expected ';' before '}' token
+  }
+  ^
+make: *** [src/ZL01_LED1_Console_IO.o] 오류 1
+03:20:41 **** Clean-only build of configuration Debug for project ZL01_SW_181703 ****
+make clean 
+rm -rf  ./src/ZL01_LED1_Console_IO.o  ./src/ZL01_LED1_Console_IO.d  ZL01_SW_181703.elf.size  ZL01_SW_181703.elf
+' '
+
+****  of configuration Debug for project ZL01_SW_181703 ****
+
+Nothing to build for project ZL01_SW_181703
+03:20:58 **** Auto Build of configuration Debug for project ZL01_SW_181703 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ZL01_LED1_Console_IO.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ZL01_LED1_Console_IO.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ZL01_SW_181703_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ZL01_LED1_Console_IO.d" -MT"src/ZL01_LED1_Console_IO.o" -o "src/ZL01_LED1_Console_IO.o" "../src/ZL01_LED1_Console_IO.c"
+'Finished building: ../src/ZL01_LED1_Console_IO.c'
+' '
+'Building target: ZL01_SW_181703.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ZL01_SW_181703_bsp/ps7_cortexa9_0/lib -o "ZL01_SW_181703.elf"  ./src/ZL01_LED1_Console_IO.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ZL01_SW_181703.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ZL01_SW_181703.elf  |tee "ZL01_SW_181703.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23668	   1168	  22600	  47436	   b94c	ZL01_SW_181703.elf
+'Finished building: ZL01_SW_181703.elf.size'
+' '
+03:21:52 **** Incremental Build of configuration Debug for project ZL01_SW_181703 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다

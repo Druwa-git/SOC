@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="ZL03_181703_wrapper_hw_platform_0-target"/>
+	<item value="Auto Detect" key="ZL03_181703_wrapper_hw_platform_0-device"/>
+	<item value="ZL03_181703_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="ZL03_181703_wrapper.bit" key="ZL03_181703_wrapper_hw_platform_0-bitFile"/>
+	<item value="" key="ZL03_181703_wrapper_hw_platform_0-bmmFile"/>
+	<item value="false" key="ZL03_181703_wrapper_hw_platform_0-partial_bit"/>
+</section>

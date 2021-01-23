@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Nov 11 10:48:29 2020
+# Process ID: 1268
+# Current directory: D:/s181703/TFF_3bits_prj/TFF_3bits_prj.runs/impl_1
+# Command line: vivado.exe -log TFF_3bits.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TFF_3bits.tcl -notrace
+# Log file: D:/s181703/TFF_3bits_prj/TFF_3bits_prj.runs/impl_1/TFF_3bits.vdi
+# Journal file: D:/s181703/TFF_3bits_prj/TFF_3bits_prj.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TFF_3bits.tcl -notrace

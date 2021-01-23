@@ -1,0 +1,113 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec 22 17:09:49 2020
+# Process ID: 9908
+# Current directory: D:/s181703/s181703/s181703L04/IP_repo_20181703/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17296 D:\s181703\s181703\s181703L04\IP_repo_20181703\managed_ip_project\managed_ip_project.xpr
+# Log file: D:/s181703/s181703/s181703L04/IP_repo_20181703/managed_ip_project/vivado.log
+# Journal file: D:/s181703/s181703/s181703L04/IP_repo_20181703/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/s181703/s181703/s181703L04/IP_repo_20181703/managed_ip_project/managed_ip_project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/s181703/s181703/s181703L04/IP_repo_20181703/ip_repo/led_btn_ip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/s181703/s181703/s181703L04/IP_repo_20181703/ip_repo/led_ip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/s181703/s181703/s181703L04/IP_repo_20181703/ip_repo/template_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'led_btn_ip_0' is locked:
+* IP definition 'led_btn_ip_v1.0 (1.0)' for IP 'led_btn_ip_0' (customized with software release 2018.2) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 807.027 ; gain = 62.727
+ipx::edit_ip_in_project -upgrade true -name led_btn_ip_v1_0_project -directory D:/s181703/s181703/s181703L04/IP_repo_20181703/managed_ip_project/managed_ip_project.tmp/led_btn_ip_v1_0_project d:/s181703/s181703/s181703L04/IP_repo_20181703/ip_repo/led_btn_ip_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'd:/s181703/s181703/s181703l04/ip_repo_20181703/managed_ip_project/managed_ip_project.tmp/led_btn_ip_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 826.684 ; gain = 15.793
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/s181703/s181703/s181703L04/IP_repo_20181703/ip_repo/led_btn_ip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/s181703/s181703/s181703L04/IP_repo_20181703/ip_repo/led_ip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/s181703/s181703/s181703L04/IP_repo_20181703/ip_repo/template_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 852.254 ; gain = 41.363
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'd:/s181703/s181703/s181703l04/ip_repo_20181703/managed_ip_project/managed_ip_project.tmp/led_btn_ip_v1_0_project/led_btn_ip_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'led_btn_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'd:/s181703/s181703/s181703l04/ip_repo_20181703/managed_ip_project/managed_ip_project.tmp/led_btn_ip_v1_0_project/led_btn_ip_v1_0_project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj led_btn_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/s181703/s181703l04/ip_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/s181703/s181703l04/ip_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_ip_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_ip_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/s181703/s181703l04/ip_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_ip_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_ip_v1_0_S00_AXI
+WARNING: [VRFC 10-1062] multiple overrides for parameter LED_WIDTH [d:/s181703/s181703/s181703l04/ip_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_ip_v1_0_S00_AXI.v:448]
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/s181703/s181703l04/ip_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/s181703/s181703l04/ip_repo_20181703/managed_ip_project/managed_ip_project.tmp/led_btn_ip_v1_0_project/led_btn_ip_v1_0_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'd:/s181703/s181703/s181703l04/ip_repo_20181703/managed_ip_project/managed_ip_project.tmp/led_btn_ip_v1_0_project/led_btn_ip_v1_0_project.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 2f4a8ec1273c46769adddb11960ddd75 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot led_btn_tb_behav xil_defaultlib.led_btn_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.led_btn_ctrl_default
+Compiling module xil_defaultlib.led_btn_ip_v1_0_S00_AXI_default
+Compiling module xil_defaultlib.led_btn_ip_v1_0
+Compiling module xil_defaultlib.led_btn_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot led_btn_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source d:/s181703/s181703/s181703l04/ip_repo_20181703/managed_ip_project/managed_ip_project.tmp/led_btn_ip_v1_0_project/led_btn_ip_v1_0_project.sim/sim_1/behav/xsim/xsim.dir/led_btn_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Dec 22 17:11:19 2020...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 884.578 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'd:/s181703/s181703/s181703l04/ip_repo_20181703/managed_ip_project/managed_ip_project.tmp/led_btn_ip_v1_0_project/led_btn_ip_v1_0_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "led_btn_tb_behav -key {Behavioral:sim_1:Functional:led_btn_tb} -tclbatch {led_btn_tb.tcl} -view {d:/s181703/s181703/s181703L04/IP_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_main_signals_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config d:/s181703/s181703/s181703L04/IP_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_main_signals_behav.wcfg
+source led_btn_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'led_btn_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 888.273 ; gain = 3.695
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 22 17:33:03 2020...

@@ -1,0 +1,7 @@
+Running: xsim.dir/TFF_3bits_tb_func_impl/xsimk.exe -simmode gui -wdb TFF_3bits_tb_func_impl.wdb -simrunnum 0 -socket 5924
+Design successfully loaded
+Design Loading Memory Usage: 6476 KB (Peak: 6476 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 7140 KB (Peak: 7140 KB)
+Simulation CPU Usage: 46 ms

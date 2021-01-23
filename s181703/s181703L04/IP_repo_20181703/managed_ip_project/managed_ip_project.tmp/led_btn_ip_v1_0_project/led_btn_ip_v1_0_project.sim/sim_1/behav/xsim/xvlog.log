@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/s181703/s181703l04/ip_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/s181703/s181703l04/ip_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_ip_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_ip_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/s181703/s181703l04/ip_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_ip_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_ip_v1_0_S00_AXI
+WARNING: [VRFC 10-1062] multiple overrides for parameter LED_WIDTH [d:/s181703/s181703/s181703l04/ip_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_ip_v1_0_S00_AXI.v:448]
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/s181703/s181703l04/ip_repo_20181703/ip_repo/led_btn_ip_1.0/hdl/led_btn_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/s181703/s181703l04/ip_repo_20181703/managed_ip_project/managed_ip_project.tmp/led_btn_ip_v1_0_project/led_btn_ip_v1_0_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

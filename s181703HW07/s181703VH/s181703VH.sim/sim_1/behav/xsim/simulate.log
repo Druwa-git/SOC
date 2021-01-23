@@ -1,0 +1,5 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Failure: End of Simulation
+Time: 300 ns  Iteration: 1  Process: /TFF_3bits_fileIO_tb/WRITE_FILE  File: D:/s181703/s181703VH/s181703VH_tb.vhd
+$finish called at time : 300 ns : File "D:/s181703/s181703VH/s181703VH_tb.vhd" Line 85

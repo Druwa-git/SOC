@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec  8 00:50:20 2020
+# Process ID: 8432
+# Current directory: D:/s181703/ZL02_LED2_181703_prj/ZL02_LED2_181703_prj.runs/synth_1
+# Command line: vivado.exe -log ZL02_Blk_181703_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ZL02_Blk_181703_wrapper.tcl
+# Log file: D:/s181703/ZL02_LED2_181703_prj/ZL02_LED2_181703_prj.runs/synth_1/ZL02_Blk_181703_wrapper.vds
+# Journal file: D:/s181703/ZL02_LED2_181703_prj/ZL02_LED2_181703_prj.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ZL02_Blk_181703_wrapper.tcl -notrace

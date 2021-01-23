@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Sat Dec 19 12:01:50 UTC 2020
+VLNV: xilinx.com:user:led_ip:1.0
+SynthRuntime: 34

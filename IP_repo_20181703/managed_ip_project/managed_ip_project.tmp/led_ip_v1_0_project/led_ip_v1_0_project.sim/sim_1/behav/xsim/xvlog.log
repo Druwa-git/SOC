@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/ip_repo_20181703/ip_repo/led_ip_1.0/src/led_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/ip_repo_20181703/ip_repo/led_ip_1.0/hdl/led_ip_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_ip_v1_0_S00_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/ip_repo_20181703/ip_repo/led_ip_1.0/hdl/led_ip_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_ip_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "d:/s181703/ip_repo_20181703/managed_ip_project/managed_ip_project.tmp/led_ip_v1_0_project/led_ip_v1_0_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

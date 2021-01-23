@@ -1,0 +1,23 @@
+00:56:02 **** Auto Build of configuration Debug for project ZL02_SW_181703 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ZL02_LED2_test.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ZL02_LED2_test.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ZL02_SW_181703_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ZL02_LED2_test.d" -MT"src/ZL02_LED2_test.o" -o "src/ZL02_LED2_test.o" "../src/ZL02_LED2_test.c"
+'Finished building: ../src/ZL02_LED2_test.c'
+' '
+'Building target: ZL02_SW_181703.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../ZL02_SW_181703_bsp/ps7_cortexa9_0/lib -o "ZL02_SW_181703.elf"  ./src/ZL02_LED2_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ZL02_SW_181703.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ZL02_SW_181703.elf  |tee "ZL02_SW_181703.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25128	   2752	  22632	  50512	   c550	ZL02_SW_181703.elf
+'Finished building: ZL02_SW_181703.elf.size'
+' '
+
+00:56:03 Build Finished (took 1s.147ms)
+

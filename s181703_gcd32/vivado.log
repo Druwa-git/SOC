@@ -1,0 +1,536 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Dec  4 19:33:37 2020
+# Process ID: 4476
+# Current directory: D:/s181703_gcd32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1748 D:\s181703_gcd32\s181703_gcd32.xpr
+# Log file: D:/s181703_gcd32/vivado.log
+# Journal file: D:/s181703_gcd32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/s181703_gcd32/s181703_gcd32.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "s181703_gcd32_tb_behav -key {Behavioral:sim_1:Functional:s181703_gcd32_tb} -tclbatch {s181703_gcd32_tb.tcl} -view {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg
+WARNING: Simulation object /s181703_gcd32_tb/s181703eof was not found in the design.
+WARNING: Simulation object /s181703_gcd32_tb/indata1 was not found in the design.
+WARNING: Simulation object /s181703_gcd32_tb/indata2 was not found in the design.
+WARNING: Simulation object /s181703_gcd32_tb/half_period was not found in the design.
+source s181703_gcd32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+End of Simulation
+INFO: [USF-XSim-96] XSim completed. Design snapshot 's181703_gcd32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 875.969 ; gain = 20.094
+run all
+WARNING: File descriptor (-19999) passed to $fdisplay in file D:/s181703_gcd32/s181703_gcd32_tb.v at line 57 is not valid.
+ERROR: File descriptor (-20000) passed to $fscanf in file D:/s181703_gcd32/s181703_gcd32_tb.v at line 43 is not valid.
+WARNING: File/Multi-channel descriptor (-20000) passed to $fclose in file D:/s181703_gcd32/s181703_gcd32_tb.v at line 45 is not valid.
+WARNING: File/Multi-channel descriptor (-19999) passed to $fclose in file D:/s181703_gcd32/s181703_gcd32_tb.v at line 46 is not valid.
+End of Simulation
+save_wave_config {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "s181703_gcd32_tb_behav -key {Behavioral:sim_1:Functional:s181703_gcd32_tb} -tclbatch {s181703_gcd32_tb.tcl} -view {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg
+source s181703_gcd32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+End of Simulation
+INFO: [USF-XSim-96] XSim completed. Design snapshot 's181703_gcd32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+save_wave_config {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "s181703_gcd32_tb_behav -key {Behavioral:sim_1:Functional:s181703_gcd32_tb} -tclbatch {s181703_gcd32_tb.tcl} -view {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg
+source s181703_gcd32_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+End of Simulation
+INFO: [USF-XSim-96] XSim completed. Design snapshot 's181703_gcd32_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+save_wave_config {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg}
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+End of Simulation
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+End of Simulation
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 906.535 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+End of Simulation
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+End of Simulation
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+End of Simulation
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+End of Simulation
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 's181703_gcd32_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj s181703_gcd32_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703_gcd32/s181703_gcd32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s181703_gcd32_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/s181703_gcd32/s181703_gcd32.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 78b2ef356dfa4892a76ec9d2c510c870 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot s181703_gcd32_tb_behav xil_defaultlib.s181703_gcd32_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.s181703_gcd32
+Compiling module xil_defaultlib.s181703_gcd32_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot s181703_gcd32_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+End of Simulation
+save_wave_config {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  4 21:37:37 2020...

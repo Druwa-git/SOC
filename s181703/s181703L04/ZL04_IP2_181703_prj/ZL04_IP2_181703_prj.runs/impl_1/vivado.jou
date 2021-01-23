@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Dec 22 17:15:49 2020
+# Process ID: 14800
+# Current directory: D:/s181703/s181703/s181703L04/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.runs/impl_1
+# Command line: vivado.exe -log ZL04_Blk_181703_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ZL04_Blk_181703_wrapper.tcl -notrace
+# Log file: D:/s181703/s181703/s181703L04/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.runs/impl_1/ZL04_Blk_181703_wrapper.vdi
+# Journal file: D:/s181703/s181703/s181703L04/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ZL04_Blk_181703_wrapper.tcl -notrace

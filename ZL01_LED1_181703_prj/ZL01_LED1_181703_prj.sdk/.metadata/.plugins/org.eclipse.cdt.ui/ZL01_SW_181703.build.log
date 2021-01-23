@@ -1,0 +1,8 @@
+03:21:52 **** Incremental Build of configuration Debug for project ZL01_SW_181703 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: `main-build'를 위해 할 일이 없습니다
+
+03:21:52 Build Finished (took 238ms)
+

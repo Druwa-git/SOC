@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Dec  4 19:33:37 2020
+# Process ID: 4476
+# Current directory: D:/s181703_gcd32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1748 D:\s181703_gcd32\s181703_gcd32.xpr
+# Log file: D:/s181703_gcd32/vivado.log
+# Journal file: D:/s181703_gcd32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/s181703_gcd32/s181703_gcd32.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg
+source s181703_gcd32_tb.tcl
+run all
+save_wave_config {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg
+source s181703_gcd32_tb.tcl
+save_wave_config {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg
+source s181703_gcd32_tb.tcl
+save_wave_config {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg}
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {D:/s181703_gcd32/s181703_gcd32_tb_behav.wcfg}
+close_sim

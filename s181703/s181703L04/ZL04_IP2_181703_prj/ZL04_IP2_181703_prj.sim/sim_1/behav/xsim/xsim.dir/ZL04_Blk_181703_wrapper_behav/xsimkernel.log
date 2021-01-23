@@ -1,0 +1,7 @@
+Running: xsim.dir/ZL04_Blk_181703_wrapper_behav/xsimk.exe -simmode gui -wdb ZL04_Blk_181703_wrapper_behav.wdb -simrunnum 0 -socket 4299
+Design successfully loaded
+Design Loading Memory Usage: 26464 KB (Peak: 26464 KB)
+Design Loading CPU Usage: 155 ms
+Simulation completed
+Simulation Memory Usage: 43144 KB (Peak: 43144 KB)
+Simulation CPU Usage: 265 ms

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ZL04_Blk_181703_rst_ps7_0_50M_0_synth_1" LaunchDir="D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.runs/ZL04_Blk_181703_rst_ps7_0_50M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZL04_Blk_181703_auto_pc_0_synth_1" LaunchDir="D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.runs/ZL04_Blk_181703_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZL04_Blk_181703_led_btn_ip_0_0_synth_1" LaunchDir="D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.runs/ZL04_Blk_181703_led_btn_ip_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZL04_Blk_181703_processing_system7_0_0_synth_1" LaunchDir="D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.runs/ZL04_Blk_181703_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ZL04_Blk_181703_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="ZL04_Blk_181703_auto_pc_0_synth_1"/>
+		<Parent Id="ZL04_Blk_181703_led_btn_ip_0_0_synth_1"/>
+		<Parent Id="ZL04_Blk_181703_processing_system7_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="ZL04_Blk_181703_rst_ps7_0_50M_0_synth_1"/>
+		<Parent Id="ZL04_Blk_181703_auto_pc_0_synth_1"/>
+		<Parent Id="ZL04_Blk_181703_led_btn_ip_0_0_synth_1"/>
+		<Parent Id="ZL04_Blk_181703_processing_system7_0_0_synth_1"/>
+	</Run>
+</Runs>
+

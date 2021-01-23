@@ -1,0 +1,7 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+D:/s181703/s181703VH/s181703.v,1605962953,verilog,,,,D_FF;TFF_3bits;T_FF;T_gen,,,,,,,,
+D:/s181703/s181703VH/s181703VH.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+D:/s181703/s181703VH/s181703VH_tb.vhd,1605965112,vhdl,,,,tff_3bits_fileio_tb,,,,,,,,

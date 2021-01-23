@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ip/ZL04_Blk_181703_processing_system7_0_0/sim/ZL04_Blk_181703_processing_system7_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ZL04_Blk_181703_processing_system7_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ipshared/d1d8/hdl/led_btn_ip_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_ip_v1_0_S00_AXI
+WARNING: [VRFC 10-1062] multiple overrides for parameter LED_WIDTH [D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ipshared/d1d8/hdl/led_btn_ip_v1_0_S00_AXI.v:448]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ipshared/d1d8/hdl/led_btn_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ipshared/d1d8/hdl/led_btn_ip_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_btn_ip_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ip/ZL04_Blk_181703_led_btn_ip_0_0/sim/ZL04_Blk_181703_led_btn_ip_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ZL04_Blk_181703_led_btn_ip_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ip/ZL04_Blk_181703_auto_pc_0/sim/ZL04_Blk_181703_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ZL04_Blk_181703_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/sim/ZL04_Blk_181703.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ZL04_Blk_181703
+INFO: [VRFC 10-311] analyzing module ZL04_Blk_181703_ps7_0_axi_periph_0
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_448PWM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.srcs/sources_1/bd/ZL04_Blk_181703/hdl/ZL04_Blk_181703_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ZL04_Blk_181703_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/s181703/ZL04_IP2_181703_prj/ZL04_IP2_181703_prj.ip_user_files/bd/ZL04_Blk_181703/ip/ZL04_Blk_181703_rst_ps7_0_50M_0/sim/ZL04_Blk_181703_rst_ps7_0_50M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ZL04_Blk_181703_rst_ps7_0_50M_0
